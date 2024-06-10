@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".splashActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        app:srcCompat="@drawable/logoW"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-188dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="523dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="160dp"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/stName"
+        android:layout_width="118dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="260dp"
+        android:text="Reabetswe Tlale"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stNumber"
+        android:layout_width="165dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="258dp"
+        android:text="ST10437938"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="339dp"
+        android:background="#2196F3"
+        android:text="WEATHER APP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
